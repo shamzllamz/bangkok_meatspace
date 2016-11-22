@@ -2,18 +2,17 @@
 A short parser-based survival IF made in python.
 Requires Windows 7+
 Python 2.7+
-============================================================================================================================
+
 To play:
+
 1. Download files
 2. Open terminal
 3. Navigate to directory with the game files
 4. Open startgame.py with python
-=============================================================================================================================
 
 
-THE 1563 WORD PLAYER MANUAL FOR
-BANGKOK MEATSPACE
-
+THE 1563 WORD PLAYER MANUAL FOR BANGKOK MEATSPACE
+==============================================================================================================================
 
 INTRODUCTION
 
