@@ -30,7 +30,9 @@ IF CONVENTIONS
 
 
 >go south 
+
 >south 
+
 >s
 
 The world model of the parser text adventure is comprised of separate rooms that are linked by directions. To navigate to the room to the player’s south, the player would enter “go south”. It is commonplace in the IF community to shorten this command to “south” (foregoing the ‘go’), or just “s”. IF traditionally uses the cardinal directions of north, south, east, and west, as well as any combination such as southwest or northeast, and sometimes up and down.
@@ -42,6 +44,7 @@ In these rooms, objects may exist for the player to interact with. To have a gen
 
 
 >examine 
+
 >look [object]
 
 If the player desires further examination of a room’s item, they would enter an object after the ‘look’ verb. For example: ‘look lamp’ would return the author’s prose describing the lamp. Note the shorthand ‘l’ would work in place of ‘look’ in every case, ie ‘l lamp’.
@@ -51,19 +54,23 @@ Another verb conventionally found in parser IF that serves the same purpose is �
 
 
 >take [object] 
+
 >get [object]
 
 Another synonym is used when the player wants to take an object. They would enter: ‘take lamp’ or ‘get lamp’. Both examples perform the same function, removing the lamp object from the room and adding it to the player’s inventory.
 
 
 >inventory
->inv    
+
+>inv   
+
 >i
 
 To take list of the player’s inventory of collected world items, they would use the command ‘inventory’, often shortened to ‘inv’, or just ‘i’.
 
 
 >tell [npc] about [subject] 
+
 >ask [npc] about [subject]
 
 Apart from rooms and objects, players are typically able to interact with non-player characters, or NPCs. This poses more of a challenge for the parser, as conversations in the real world and in prose can veer into any given direction. The linear nature of computer code, and the fact that the IF writer must write every single line of possible dialogue, limits the player to ‘ask’ing or ‘tell’ing an NPC about a subject, usually a keyword, eg. ‘ask professor about physics’.
@@ -94,6 +101,7 @@ FULL LIST OF COMMANDS
 
 
 >goto [subdirectory]
+
 >goto exit
 
 
@@ -104,21 +112,31 @@ FULL LIST OF COMMANDS
 
 
 >about
+
 >about [item]
+
 >about [subdirectory] 
+
 >about [npc]
 
 
 >list
+
 >list [prices]
+
 >list [inventory]
+
 >list [subdirectories]
+
 >list [directory]
 
 
 >buy [item]
+
 >eat [item]
+
 >drink [item]
+
 >smoke [item]
 
 
